@@ -1,6 +1,10 @@
 <h3 class="page-title text-center">MODIFY POST</h3>
 <div id="edit" class="container">
-  <form class="" action="/board/edit/<?php echo $this->uri->segment(3);?>/board_id/<?php echo $this->uri->segment(5);?>" method="post">
+  <!-- <form class="" action="/board/edit/<?php echo $this->uri->segment(3);?>/board_id/<?php echo $this->uri->segment(5);?>" method="post"> -->
+    <?php
+    $attributes = array('class' => 'form-horizontal', 'id' => 'edit_post');
+    echo form_open('/board/edit/'.$this->uri->segment(3).'/board_id/'.$this->uri->segment(5), $attributes);
+    ?>
     <div class="form-group">
       <label for="title">POST TITLE</label>
       <input type="text" class="form-control" id="title" name="title" value="<?php echo $views->title?>">
