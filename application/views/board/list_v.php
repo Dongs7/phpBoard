@@ -13,7 +13,6 @@ if($search_result['soption'] != '' AND $search_result['sterm'] != ''){
   <table class="table table-striped table-hover">
     <thead>
       <tr>
-        <th>No.</th>
         <th>Title</th>
         <th>Author</th>
         <th>Views</th>
@@ -26,7 +25,7 @@ if($search_result['soption'] != '' AND $search_result['sterm'] != ''){
       ?>
 
       <tr>
-        <th><?php echo $lt-> board_id;?></th>
+
         <th>
           <a href="/board/view/<?php echo $this->uri->segment(3);?>/id/<?php echo $lt->board_id;?>"><?php echo $lt-> title;?></a>
         </th>
