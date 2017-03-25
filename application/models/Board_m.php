@@ -17,7 +17,7 @@ class Board_m extends CI_Model {
 	 * @param  [string] $sterm   [search word]
 	 * @return [array]          [array containing returned data]
 	 */
-	function get_list($table, $type, $offset ,$limit, $soption, $sterm){
+	function get_list($table='ci_board', $type, $offset ,$limit, $soption, $sterm){
 		$limit_query = '';
 		$search_query =' WHERE';
 
