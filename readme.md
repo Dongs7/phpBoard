@@ -5,6 +5,8 @@ Simple CRUD board utilizing php, CI3, mySQL, ajax, jquery and twitter bootstrap
 ## Description
 - C.R.U.D
 - User authentication
+  - can update user's profile photo
+  
 - comment using ajax
 - User database
 
