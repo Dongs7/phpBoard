@@ -7,3 +7,7 @@ Simple CRUD board utilizing php, CI3, mySQL, ajax, jquery and twitter bootstrap
 - User authentication
 - comment using ajax
 - User database
+
+# Tester account
+ ID: tester 
+ PW: tester
